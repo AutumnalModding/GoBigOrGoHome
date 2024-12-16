@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "go-big-or-go-home",
+    "version": "${version}",
+    "name": "Go Big or Go Home",
+    "description": "The certified Big Weapon Autism:tm: mod:.",
+    "authors": [
+        "LilyflowerFDL / SpectreiCyanogen"
+    ],
+    "contact": {
+        "homepage": "https://fabricmc.net/",
+        "sources": "https://github.com/FabricMC/fabric-example-mod"
+    },
+    "license": "GPLv3",
+    "icon": "assets/go-big-or-go-home/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "xyz.lilyflower.gbogh.GoBigOrGoHome"
+        ]
+    },
+    "mixins": [
+        "gbogh.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.9",
+        "minecraft": "~1.21.1",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
